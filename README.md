@@ -108,12 +108,12 @@ The data was split across three tables:
 A new column was added to the Institution table indicating the district where each institution is located. This allows geographic analysis in Power BI. You can find the file for the scripint adding the new column here: [`localizacao_hospitais.ipynb`](localizacao_hospitais.ipynb).
 
 This is the layout of the Database:
-![DB layout](imagens\esquema_tabelas.png)
+![DB layout](imagens/esquema_tabelas.png)
 And this is the schema in SQL:[`create_tables.sql`](create_tables.sql).
 
 Here you can also check some queries I did on the tables: [`queries.sql`](queries.sql).
 Such as finding out the top specialities by year:
-![DB layout](imagens\top_especialidades.png)
+![DB layout](imagens/top_especialidades.png)
 
 ---
 
@@ -129,14 +129,14 @@ The **first page** is the main dashboard and includes:
 - A geographical map by district
 - Rankings by institution and specialty
 
-![Dashboard](imagens\dashboard_1.png)
+![Dashboard](imagens/dashboard_1.png)
 
 The **second page** provides a more in-depth analysis:
 - A bar chart showing the difference in the number of doctors between 2020 and 2025
 - A geographical distribution highlighting areas with higher training activity
 - A visual showing specialties with fewer new specialists, potentially indicating future shortages
 
-![2nd Page](imagens\dashboard_2.png)
+![2nd Page](imagens/dashboard_2.png)
 
 ---
 
