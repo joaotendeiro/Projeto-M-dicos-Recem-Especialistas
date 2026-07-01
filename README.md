@@ -113,6 +113,7 @@ And this is the schema in SQL:[`create_tables.sql`](create_tables.sql).
 
 Here you can also check some queries I did on the tables: [`queries.sql`](queries.sql).
 Such as finding out the top specialities by year:
+
 ![DB layout](imagens/top_especialidades.png)
 
 ---
